@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="utf-8"/>
+		<title>Vote agora</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+	</head>
+	<body>
+		<div class="main flex">
+			<div>Nº título <input type="number" name="nTitEleitor"/></div>
+			<form class="flex urna">
+				<div class="tela flex">
+					<div class="input-foto flex">
+						<div>
+							<h3>PRESIDENTE</h3>
+							<input type="number" name="nNum"/>
+						</div>
+						<div class="flex foto-nome">
+							<img src="images/candidato.jpg" width="150px"/>
+							<div id="nome"></div>
+						</div>
+					</div>
+					
+					<div class="info flex">
+						<h1>DIGITE O NÚMERO</h1>
+					</div>
+				</div>
+				<div class="teclado flex">
+					<div class="numeros flex">
+						<btn data-value="1">1</btn>
+						<btn data-value="2">2</btn>
+						<btn data-value="3">3</btn>
+						<btn data-value="4">4</btn>
+						<btn data-value="5">5</btn>
+						<btn data-value="6">6</btn>
+						<btn data-value="7">7</btn>
+						<btn data-value="8">8</btn>
+						<btn data-value="9">9</btn>
+						<btn data-value="0">0</btn>
+					</div>
+					<div>
+						<btn data-branco="branco">BRANCO</btn>
+						<btn data-limpar="corrige">CORRIGE</btn>
+						<input type="submit" value="CONFIRMA"/>
+					</div>
+				</div>
+			</form>
+		</div>
+
+	</body>
+
+	<script src="assets/js/script.js"></script>
+</html>
